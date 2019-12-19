@@ -1,6 +1,6 @@
 export default [
   {
-    title: 'Excellent one. Thanks',
+    title: 'Excellent one. Thank',
     content:
       'Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis.',
     customerName: 'Jane Doe',
