@@ -16,15 +16,15 @@ export default () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Hyperweb AI
+            Build blazing fast secure websites within three minutes. No coding required!
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Build Blazing fase websites with AI. No coding required
+            Build blazing fast secure websites within three minutes. No coding required!
           </p>
           <p className="mt-8 md:mt-12">
             <Button size="lg">Sign Up</Button>
           </p>
-          <p className="mt-4 text-gray-600"> Upload Images, Added content and let AI do the rest for you</p>
+          <p className="mt-4 text-gray-600"> Upload images, add content and let AI do the rest for you</p>. Already have
         </div>
         <div className="lg:w-1/2">
           <HeroImage />
