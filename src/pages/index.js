@@ -16,15 +16,15 @@ export default () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Build blazing fast secure websites within three minutes. No coding required!
+            Blazing fast websites in three minutes! No Coding! No recurring cost!
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Build blazing fast secure websites within three minutes. No coding required!
+            Build blazing fast secure websites within three minutes. No coding required! Upload images, add content and let AI do the rest for you.
           </p>
           <p className="mt-8 md:mt-12">
             <Button size="lg">Sign Up</Button>
           </p>
-          <p className="mt-4 text-gray-600"> Upload images, add content and let AI do the rest for you</p>. Already have
+          <p className="mt-4 text-gray-600"> Already have a website? Migrate to hyperweb in just </p><a href="#">one click</a>.
         </div>
         <div className="lg:w-1/2">
           <HeroImage />
@@ -39,8 +39,8 @@ export default () => (
             <Card className="mb-8">
               <p className="font-semibold text-xl">Blazing Fast</p>
               <p className="mt-4">
-                 Build Blazing Fast Websites built with the technologies used by Facebook, Twitter and Instagram. Hyperweb AI uses Reactjs and Gatsbyjs to build blazng fast websites. Typically Nx times faster than a wordpress website. 
-                velna vitae auctor integer.
+                 Build blazing fast websites built with the technologies used by Facebook, Twitter and Instagram. Hyperweb AI uses Reactjs and Gatsbyjs to build blazing fast websites. Typically our websites are <a href="https://www.gatsbyjs.org/blog/2017-09-13-why-is-gatsby-so-fast/" > eight times faster</a> than a wordpress website. Did you know pagespeed is <a href="https://neilpatel.com/blog/speed-is-a-killer/">extremely important</a> to rank top on google?
+                
               </p>
             </Card>
           </div>
@@ -48,15 +48,15 @@ export default () => (
             <Card className="mb-8">
               <p className="font-semibold text-xl">Secure</p>
               <p className="mt-4">
-                Why is it secure? Because it is static
+                Do let hackers to exploit your platform. Hyperweb AI uses the serveless applications to ensure your data is safe and does not depend on random third party plugins and softwares. Hacking your website is as hard as hacking Amazon.com . 
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Automatic</p>
+              <p className="font-semibold text-xl">No Recurring cost</p>
               <p className="mt-4">
-                Use AI to build Stuffs. No joke
+                Pay for it only when you build. No recurring cost. Seriously!
               </p>
             </Card>
           </div>
@@ -67,10 +67,11 @@ export default () => (
       id="services"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Market Analysis</h3>
+          <h3 className="text-3xl font-semibold leading-tight">Speed</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            55% of wesites are built with slow and useless softwares. Get a competitive advantage by using Gatsbyjs that makes your websites 45x faster.
-            Google ranks you at the top.
+          How important is your website loading speed for your search engine ranking? 
+          
+          The answer is <b>extremely important</b>. Google and other search engines penalize sites that load slowly-but more importantly, your users do so. They stop visiting, bounce out of your website. You’ll lose out on sales and traffic if your site is slow. 34% of wesites are built with wordpress. A typical wordpress site is around 8 times slower to load than our website which is built with Reactjs. Migrating to a React based website can give you an unpresedented advantage against your competitor. 
           </p>
         </div>
       }
@@ -81,11 +82,10 @@ export default () => (
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Design And Plan Your Business Growth Steps
+            Security
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Once the market analysis process is completed our staff will search for opportunities
-            that are in reach
+            2019 witnessed a whopping 1.9 Billion data breaches. Its extremely important to keep your data and your customer’s data is secure. Hyperweb reduces the vulneribility by minimized server based applications. All the websites are federated on the CDNs. The hacker has nothing to tamper with.
           </p>
         </div>
       }
@@ -95,11 +95,10 @@ export default () => (
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Search For Performance Optimization
+            No recurrent cost
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            With all the information in place you will be presented with an action plan that your
-            company needs to follow
+            A typical wordpress website static website costs you 30 USD per month. Which is ridiculous when you do not have any dynamic applications. Hyperweb hosts your 
           </p>
         </div>
       }
